@@ -15,8 +15,8 @@ import { TabuadaComponent } from './tabuada/tabuada.component';
     FormsModule,
     RouterModule.forRoot([
       {path:'', component: HomeComponent},
-      {path:'/about', component: AboutComponent},
-      {path:'/tabuada', component: TabuadaComponent}
+      {path:'about', component: AboutComponent},
+      {path:'tabuada', component: TabuadaComponent}
     ]) 
   ],
   declarations: [ AppComponent, HelloComponent ],
